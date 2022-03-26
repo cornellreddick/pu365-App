@@ -1,9 +1,9 @@
 package com.example.pu365;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
-import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
     }
 }
